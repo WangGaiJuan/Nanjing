@@ -1,0 +1,338 @@
+body{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	background: #edebdf;
+}
+/* top */
+.top{
+	height:36px;
+	line-height: 36px;
+	background: #1d011b;	
+}
+.top .col-md-8{
+	padding:0px;
+}
+
+.top .col-md-2{
+	padding:0px;
+}
+
+.top a{
+	color:#cdbccc;
+	font-size:12px;
+	margin-left:5px;
+}
+
+.top a:hover{
+	color:#fff;
+}
+
+.top a:hover{
+	text-decoration: none;
+}
+
+/* search */
+.sear{
+	height:105px;
+	background:#63065f;
+}
+
+.sear .col-md-5{
+	padding: 0px;
+	line-height: 100px; 
+	padding-left:110px;
+}
+
+#hid{
+	width:480px;
+	height:90px;
+	overflow: hidden;
+	padding-left:35px;
+	float: left;
+}
+
+.sear .col-md-6{
+	padding: 0px;
+	line-height: 90px; 
+	padding-left:140px;
+}
+
+.sear .col-md-6 img{
+	line-height: 100px; 
+	position: relative;
+	right:-150px;
+}
+
+.sear .col-md-6 .tex{
+	line-height:30px;
+	position: relative;
+	top:5px;
+	right:-150px;
+	background: transparent;
+	border:none;
+	color:#ddd;
+}
+
+.sear .col-md-6 .sub{
+	line-height:40px;
+	float: left;
+	margin-top:30px;
+	margin-left:5px;
+}
+
+/* menu */
+.MenuSet{
+	background: #73116f;
+}
+
+.Menu{
+	width:1150px;
+	margin: auto;
+	background: #73116f;
+	border:0px;
+}
+.nav li{
+	width:140px;
+	text-align: center;
+	color:#fff;
+}
+
+#setA a{
+	color:#fff;
+}
+
+#setA a span{
+	color:#ccc;
+}
+
+/* .menu_set{
+	overflow: hidden;
+} */
+
+.child_menu{
+	/*height:0px;*/
+	padding:0px;
+	background: #575757;
+	display: none;
+}
+
+.child_menu .col-md-10{
+	margin-left:-15px;
+}
+
+.child_menu .col-md-10 .col-md-3{
+	padding:0px;
+}
+
+.child_menu .col-md-10 .col-md-3 ul{
+	list-style: none;
+	padding:0px;
+}
+
+.child_menu .col-md-10 .col-md-3 ul li{
+	width:130px;
+	line-height:26px;
+	text-align: center;
+}
+
+.child_menu .col-md-10 .col-md-3  ul li a{
+	color:#fff;
+}
+
+.one{
+	float: left;
+}
+
+.two{
+	float:left;
+	padding-left:5px;
+}
+
+.bg .col-md-12{
+	padding:0px;
+}
+
+.bg img{
+	width:100%;
+}
+
+.main{
+	width:100%;
+	background: #f00;
+}
+.main_left{
+	width:216px;
+	margin-left:80px;
+	position: relative;
+	top:-65px;
+	float: left;
+}
+
+.main_left ul{
+	width:216px;
+	margin:auto;
+	list-style:none;
+	padding:0px;
+}
+
+.main_left ul li{
+	border-bottom:1px solid #e6e6e6;
+}
+
+.main_left ul li a{
+	display: block;
+	line-height:38px;
+	font-size: 16px;
+	padding-left:20px;
+	color:#63065f;
+	text-decoration:none;
+}
+
+.main_left ul li a:hover{
+	background: #eeefeb;
+}
+
+.beijing a{
+	background: #eeefeb;
+}
+
+.about{
+	display: block;
+	line-height:38px;
+	font-size: 16px;
+	padding-left:20px;
+	color:#63065f;
+}
+
+.main_left ul li span{
+	display: block;
+	line-height: 65px;
+	background: #63065f;
+	font-size:24px;
+	padding-left: 10px;
+	color:#fff;
+	border-bottom:3px solid #e09f51;
+}
+
+#main_p {
+	display: inline;
+	background: #edeadf;
+	color:#c4c4c4;
+	margin-left:90px;
+	line-height:38px;
+	border:none;
+}
+
+#ul01{
+	display: none;
+	margin-left:-20px;
+}
+
+.main_right{
+	width:950px;
+	float: left;
+	margin-left:30px;
+	margin-top:30px;
+}
+
+.jieshao{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.addr{
+	margin-left:600px;
+	line-height: 30px;
+	color:#aaa;
+}
+
+.addr a{
+	color:#aaa;
+}
+
+.p0{
+	padding-top:10px;
+	border-top:3px solid #63065f;
+}
+.p2{
+	margin-left: 700px;
+}
+
+.main_right p{
+	line-height: 24px;
+	font-size: 15px;
+	text-indent: 2em;
+}
+
+/* 底部 */
+
+.container02{
+	clear: both;
+}
+
+.footer{
+	width:1349px;
+	background: #63065f;
+	padding-top:50px;
+	padding-bottom:30px;
+	margin-right: 0px;
+	padding-left:0px;
+}
+
+.footer .col-md-4 img{
+	margin-top:-20px;
+}
+
+.footer .col-md-3 img{
+	margin-top:30px;
+}
+
+.erweima{
+	position:absolute;
+	top:1550px;
+	left:1000px;
+	display: none;
+}
+
+.foot{
+	margin-left:120px;
+	margin-right:10px;
+}
+
+.p1{
+	float:left;
+	color:#bbb;
+}
+
+.p1 span{
+	color:#fff;
+	line-height:30px;
+}
+
+.copy{
+	width:1349px;
+	background: #390336;
+	margin-right: 0px;
+	color:#aaa;
+	font-size:12px;
+}
+
+.copy .col-md-6 p{
+	padding-left:50px;
+}
+
+.copy a{
+	color:#aaa;
+	font-size:12px;
+}
+
+.copy a:hover{
+	color:#f00;
+}
+
+.copy .col-md-6{
+	padding:0px;
+	line-height:24px;
+	margin-top:10px;
+}

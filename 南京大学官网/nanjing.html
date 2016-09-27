@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>南京大学</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/myCss.css"/>
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/运动框架.js"></script>
+	<script type="text/javascript" src="js/holder.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/myJs.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+	<!-- 测试栅格 -->
+	<!-- <div class="row class0">
+		<div class="col-md-1" style="background:#ff0;">1</div>
+		<div class="col-md-1" style="background:#f0f;">2</div>
+		<div class="col-md-1" style="background:#0ff;">3</div>
+		<div class="col-md-1" style="background:blue;">4</div>
+		<div class="col-md-1" style="background:#aff;">5</div>
+		<div class="col-md-1" style="background:#ccc;">6</div>
+		<div class="col-md-1" style="background:#ffa;">7</div>
+		<div class="col-md-1" style="background:green;">8</div>
+		<div class="col-md-1" style="background:#ccabff;">9</div>
+		<div class="col-md-1" style="background:#accbbd;">10</div>
+		<div class="col-md-1" style="background:gray;">11</div>
+		<div class="col-md-1" style="background:#eeaadd;">12</div>
+	</div> -->
+	<!-- header -->
+	<div class="row top">
+		<div class="col-md-1"></div>
+		<div class="col-md-8">
+			<a href="">学生</a>
+			<a href="">教职工</a>
+			<a href="">考生</a>
+			<a href="">校友</a>
+			<a href="">访客</a>
+		</div>
+		<div class="col-md-2">
+			<a href="">学生邮箱</a>
+			<a href="">教育邮箱</a>
+			<a href="">捐赠</a>
+			<a href="">OA</a>
+			<a href="">English</a>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+	
+	<!-- search -->
+	<div class="row sear">
+		<div class="col-md-1"></div>
+		<div class="col-md-5"><img src="img/log_01.jpg"></div>
+		<div class="col-md-6">
+			<div id="hid">
+				<img src="img/log_02.jpg" >
+				<input type="text" class="tex" placeholder="Search">
+			</div>
+			<a href="javascript:;" class="sub">
+			<span class="glyphicon glyphicon-search" style="color:#fff;">
+			</span></a>
+		</div>
+	</div>
+
+	<!--一级菜单 -->
+	<div class="row MenuSet">
+		<div class="navbar navbar-default Menu" role="navigation">
+			<div>
+				<ul id="setA" class="nav navbar-nav">
+					<li><a href="javascript:;">南大概况
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">院系部门
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">招生就业
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">人才培养
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">科学研究
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">合作交流
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">文化生活
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">校园服务
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 二级菜单 -->
+	<div class="row child_menu">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div class="row">
+				<div class="col-md-3">
+					<ul>
+						<div class="one">
+							<li><a href="">南大简介</a></li>
+							<li><a href="">现任领导</a></li>
+							<li><a href="">历任领导</a></li>
+							<li><a href="">南大校史</a></li>
+							<li><a href="">统计概要</a></li>
+							<li><a href="">南大标识</a></li>
+						</div>
+						<div class="two">
+							<li><a href="">党群组织</a></li>
+							<li><a href="">行政部门</a></li>
+							<li><a href="">院系设置</a></li>
+							<li><a href="">直属单位</a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<div class="one">
+							<li><a href="">招生</a></li>
+							<li><a href="">奖助金</a></li>
+							<li><a href="">就业创业</a></li>
+							
+						</div>
+						<div class="two">
+							<li><a href="">师资队伍</a></li>
+							<li><a href="">本科生</a></li>
+							<li><a href="">研究生</a></li>
+							<li><a href="">留学生</a></li>
+							<li><a href="">成人教育</a></li>
+							<li><a href="">远程教育</a></li>
+							<li><a href="">三三制教学</a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<div class="one">
+							<li><a href="">科研动态</a></li>
+							<li><a href="">科研机构</a></li>
+							<li><a href="">成果查询</a></li>
+							<li><a href="">学术期刊</a></li>
+						</div>
+						<div class="two">
+							<li><a href="">国际合作</a></li>
+							<li><a href="">合作办学</a></li>
+							<li><a href="">学生交流</a></li>
+							<li><a href="">成果转化</a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<div class="one">
+							<li><a href="">南大青年</a></li>
+							<li><a href="">工会</a></li>
+							<li><a href="">小百合BBS</a></li>
+							<li><a href="">微媒体</a></li>
+							
+						</div>
+						<div class="two">
+							<li><a href="">电话黄页</a></li>
+							<li><a href="">南大校历</a></li>
+							<li><a href="">图书馆</a></li>
+							<li><a href="">心理咨询</a></li>
+							<li><a href="">后勤服务</a></li>
+							<li><a href="">网络服务</a></li>
+							<li><a href="">媒体采访</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+	<div class="row Slide">
+		<div class="col-md-12">
+			<div class="row lunbo">	
+			<div class="col-md-12">
+				<ul>
+					<li><a href="">
+						<img src="img/lunbo_01.gif">
+						<p class="ppp">南京大学教授发现夸克星存在重要证据</p>
+					</a></li>
+					<li><a href="">
+						<img src="img/lunbo_02.gif">
+						<p class="ppp">中国抗日战争研究协同创新中心在南京大学成立</p>
+					</a></li>
+					<li><a href="">
+						<img src="img/lunbo_03.gif">
+						<p class="ppp">《自然.通讯》刊登徐挺教授课题组在电致变色材料技术上的最新发展</p>
+					</a></li>
+					<li><a href="">
+						<img src="img/lunbo_04.gif">
+						<p class="ppp">自然出版集团携手南京大学推出期刊npj Quantum Materials</p>
+					</a></li>
+					<li><a href="">
+						<img src="img/lunbo_05.gif">
+						<p class="ppp">《物理评论快报》报道王欣然,施毅教授团队在二维有机电子学方面的重要研究成果</p>
+					</a></li>
+				</ul>
+			</div>	
+			</div>
+		</div>
+		<!-- 轮播 -->
+		
+		<div class="btn">
+			<div class="btn_left"></div>
+			<div class="btn_right"></div>
+		</div>
+		<!-- main -->
+		<div class="row main">
+			<div class="row main_top">
+			<div class="col-md-1"></div>
+			<!-- 显示隐藏转换层 -->
+			<div class="main_top_left col-md-7 trans">
+				<span class="span01">南大新闻<a href="">></a></span>
+				<div class="col-md-12 vis">
+					<div class="col-md-6 top_left">
+						<img src="img/img_01.gif">
+						<h4><a href="">《自然•通讯》报道汤怒江副教授/都有为院士团队在低维碳材料的轻质元素超掺杂及其磁性等方</a></h4>
+						<span>2016-03-07</span>
+					</div>
+					<div class="col-md-6 top_right">
+						<h4><a href="">南京大屠杀史与国际和平研究院成立</a></h4>
+						<span>2016-03-07</span>
+						<p><a href="">作为江苏省高端智库建设的重点工程之一，由南京大学联合江苏省委宣传部、南京市委宣传部等机构组建的南京大屠杀史与国际和平研究院于2016年3月1日在侵华日军南京大屠杀遇难同胞纪念馆正式成立。省委常委、宣传部长王...</a></p><br><br><br><br>
+					</div>
+
+					<div class="col-md-6 bottom_left">
+						<h4><a href="">南京大学深圳研究院获深圳市科技创新委多项表彰</a></h4>
+						<span>2016-03-04</span>
+						<p><a href="">3月2日，深圳虚拟大学园2016年工作会议在大学园演示厅召开，来自成员院校深圳研究院、重点实验室（工程中心）、入孵企业、大学生创业园的代表参加会议。会上，虚拟大学园管理服务中心主任王宁向与会代表做了2015年工...</a></p>
+					</div>
+					<div class="col-md-6 bottom_right">
+						<img src="img/img_02.gif">
+						<h4><a href="">中科院院士戎嘉余团队来我校讲授跨学科通识课</a></h4>
+						<span>2016-03-04</span>
+					</div>	
+				</div>
+				<div class="col-md-12 hid">
+					<div class="col-md-6 top_right">
+						<h4><a href="">西澳大学常务副校长罗宾·欧文斯一行访问我校</a></h4>
+						<span>2016-03-02</span>
+						<p><a href="">2016年3月1日，西澳大学（University Of Western Australia）常务副校长罗宾·欧文斯（Robyn Owens）一行访问我校。潘毅副校长热情会见来宾，陪同会见的有我校模式动物研究所、医学院及国际处代表。潘毅向来宾介绍了...</a></p>
+					</div>
+					<div class="col-md-6 top_left">
+						<img src="img/img_03.gif">
+						<h4><a href="">南京大学祝世宁教授、刘辉教授课题组用广义相对论原理实现芯片上光子波前的调控</a></h4>
+						<span>2016-03-02</span>
+					</div>
+
+					<div class="col-md-6 bottom_right">
+						<img src="img/img_04.gif">
+						<h4><a href="">我校召开2016年春季新学期工作布置会</a></h4>
+						<span>2016-03-02</span>
+					</div>
+					<div class="col-md-6 bottom_left">
+						<h4><a href="">陈骏校长为2015年工作点赞</a></h4>
+						<span>2016-03-01</span>
+						<p><a href="">3月1日，南京大学2016年春季新学期工作布置会在仙林校区恩玲剧场举行。校长陈骏院士以“凝心聚力 团结拼搏 加快创建世界一流大学步伐”为题做讲话。讲话中，陈骏校长代表学校行政向师生员工致以新春的问候，并祝愿大...</a></p>	
+					</div>
+				</div>
+			</div>
+			<button class="point_hid"></button>
+			<button class="point_vis"></button>
+			<div class="main_top_right col-md-4">
+				<span class="span01">公告通知<a href="">></a></span>
+				<div class="col-md-10 Change">
+					<div class="col-md-4">
+						<div class="Dat">
+							<h3>21</h3>
+							<p>2016-02</p>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<p><a href="">南京大学2015-2016学年第二学期各单位两校区办公、值班安排情况一览</a></p>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div class="col-md-4">
+						<div class="Dat">
+							<h3>21</h3>
+							<p>2016-02</p>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<p><a href="">校长办公室关于2016年寒假工作安排的通知<br><br></a></p>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div class="col-md-4">
+						<div class="Dat">
+							<h3>21</h3>
+							<p>2016-02</p>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<p><a href="">校长办公室关于扫雪工作的通知<br><br></a></p>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div class="col-md-4">
+						<div class="Dat" style="border:none;">
+							<h3>21</h3>
+							<p>2016-02</p>
+						</div>
+					</div>
+					<div class="col-md-8" style="border:none;">
+						<p><a href="">校长办公室关于2016年元旦放假的通知</a></p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="row main_bottom">
+			<div class="col-md-1"></div>
+			<div class="main_bottom_left col-md-7">
+				<span class="span01">科学研究<a href="">></a></span>
+				<div class="col-md-12">
+					<div class="col-md-6 top_left">
+						<img src="img/img_05.gif">
+						<h4 id="fudong"><a href="">电子学院张荣教授、刘斌副教授课题组在氮化物半导体LED器件研究取得进展</a></h4> 
+					</div>
+					<div class="col-md-6 top_right">
+						<h4><a href="">我校4项成果获2015年度“江苏发展研究奖”</a></h4>
+						<span>2016-02-19</span>
+						<p><a href="">在日前揭晓的2015年度“江苏发展研究奖”中，我校文科教师共有4项成果获奖，其中，杜骏飞教授课题组的《网络社会协同管理创新研究》获二等奖，刘金源教授《提升江苏区域软...</a></p><br><br><br><br>
+					</div>
+	
+					<div class="col-md-6 bottom_left change01 Bottom">
+						<h4><a href="">南京市副市长胡万进考察中华文化研究院</a></h4>
+						<span>2016-03-07</span>
+						<p><a href="">2016年2月26日下午，南京市人民政府副市长胡万进、市政府副秘书长张强及南京市文广新局、旅游局、宗教局相关领导一行考察南京大学中华文化研究院。我校中华文化研究院院长...</a></p>
+					</div>
+					<div class="col-md-6 bottom_right Bottom">
+						<h4 class="change02"><a href="">2015年度江苏地区科学基金联络网管理工作研讨会在徐州召开</a></h4>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-4">
+				<span class="span01" style="padding-top:35px;">校园生活<a href="">></a></span>
+				<div class="col-md-10 change04">
+					<h4 class="change05"><a href="">
+					西安交大仲英书院组队来我校调研</a></h4>
+					<p><a href="">3月7日，西安交通大学仲英书院院务副主任、党总支书记徐慧带队来访我校交流学生工作，我校学工部、心理中心...</a></p>
+					<h4><a href="">
+					我校开展“青年之声”权益服务日活动</a></h4>
+					<p><a href="">3月5日，我校学生会、研究生会在仙林校区举办“青年之声”线下权益服务日活动，来自教务处、学工处、研究生...</a></p>
+				</div>
+			</div>
+			</div>
+			<div class="row lianjie">
+			<div class="col-md-4">
+				<div class="img01">
+				<a href=""><img style="margin-left:120px;" src="img/img_06.gif"></a></div>
+				<a href=""><div class="img02"><img src="img/img_07.gif"></a></div>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-6">
+				<a href="">
+					<img src="img/img_email.gif"><br>
+					<span>电子邮箱</span>
+				</a>
+				<a href="">
+					<img src="img/img_bangong.gif"><br>
+					<span>办公系统</span>
+				</a>
+				<a href="">
+					<img src="img/img_new.gif"><br>
+					<span>新闻网</span>
+				</a>
+				<a href="">
+					<img src="img/img_baihe.gif"><br>
+					<span>小百合BBS</span>
+				</a>
+				<a href="">
+					<img src="img/img_xiaoyou.gif"><br>
+					<span>校友总会</span>
+				</a>
+				<a href="">
+					<img src="img/img_jijin.gif"><br>
+					<span>基金会</span>
+				</a>
+			</div>
+			</div>
+			<div class="row footer">
+			<div class="col-md-5">
+				<div class="p1 foot">
+					<span>鼓楼校区</span>
+					<p>南京鼓楼区汉口路22号</p>
+					<p>(86)-025-83593186</p>
+					<p>210093</p>
+				</div>
+				<div class="p1">
+					<span>仙林校区</span>
+					<p>南京栖霞区仙林大道163号</p>
+					<p>(86)-025-89683186</p>
+					<p>210023</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img src="img/log_03.gif">
+			</div>
+			<div class="col-md-3">
+				<a class="weibo" href=""><img src="img/weibo.gif"></a>
+				<img class="weixin" src="img/weixin.gif">
+				<a class="biaozhi" href=""><img src="img/biaozhi.gif"></a>
+
+			</div>
+			<div class="erweima">
+				<img src="img/erweima_01.gif">
+				<img src="img/erweima_02.gif">
+			</div>
+			</div>
+			<div class="row copy">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<p>Copyright © 2015 Nanjing University All Rights Reserved | 苏ICP备10085945号  <a href="">webmaster@nju.edu.cn</a></p>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
